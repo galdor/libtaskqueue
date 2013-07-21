@@ -1,0 +1,10 @@
+# libtaskqueue
+
+## Description
+
+`libtaskqueue` is a small C library providing a multithreaded task queue.
+
+## Contact
+
+If you have found a bug, have an idea or a question, email me at
+<khaelin@gmail.com>.
