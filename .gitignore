@@ -1,0 +1,5 @@
+*.a
+*.tags
+src/*.o
+
+examples/wordcount
