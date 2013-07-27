@@ -30,8 +30,8 @@ extern struct tq_memory_allocator *tq_default_memory_allocator;
 
 typedef int (*tq_job_func)(void *);
 
-typedef void (*tq_job_started_hook)(tq_job_func, void *);
-typedef void (*tq_job_done_hook)(tq_job_func, void *);
+typedef void (*tq_job_started_hook)(void *);
+typedef void (*tq_job_done_hook)(void *);
 
 
 const char *tq_get_error(void);
