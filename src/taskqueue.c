@@ -362,10 +362,11 @@ tq_worker_func(void *arg) {
             queue->job_started_hook(job->arg);
 
         job->func(job->arg);
-        tq_free(job);
 
         if (queue->job_done_hook)
             queue->job_done_hook(job->arg);
+
+        tq_free(job);
     }
 
     return NULL;

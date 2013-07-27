@@ -2,4 +2,6 @@
 *.tags
 src/*.o
 
+session.vim
+
 examples/wordcount
